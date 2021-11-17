@@ -284,3 +284,219 @@ h3{
 .media3{
     display: none;
 }
+
+@media only screen and (max-width: 600px) {
+
+    body{
+        overflow: auto;	
+    }
+    
+    header{
+        display: none;
+    }
+    
+    
+    
+    .header{
+    display: none;
+    }
+    
+    .redim-img{
+        display: block;
+        width: 800px;
+    }
+    .part{
+        background-color: rgb(255, 255, 255);
+        display: block;
+        width: 800px;
+        text-align: center;
+    }
+    
+    
+    
+    .media{
+        display: block;
+        width: 800px;
+    }
+    
+    .part p{
+        display: block;
+        width: -200%;
+        text-align: center;
+        
+    }
+    
+    h1{
+        display: inline-block;
+        font-size: 30px;
+        margin-top: 50px;
+        color: #005587;
+        font-weight: bold;
+        
+    }
+    
+    
+    .header2{
+      display: none;
+    }
+    
+    .part2{
+        display: block;
+        width: 700px;
+    }
+    
+    .part2 iframe{
+        display: block;
+        text-align: center;
+        margin-left: 50px;
+        margin-left: 25%;
+    }
+    
+    
+    .small p{
+        padding-top: 25px;
+        text-align: center;	
+        overflow: hidden;
+    }
+    
+    
+    h2{
+        position: relative;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        margin-top: 10px;
+        margin-left: 5%;
+        
+    }
+    
+    .video1{
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom:100px;
+        width: 70px;
+        margin-left: 20%;
+    }
+    
+    #vyoutube{
+        display: block;
+        width: 600px;
+        height: 350px;
+    }
+    
+    h5{
+        display: inline-block;
+        margin: 130px;
+        margin-top: 10px;
+        overflow: hidden;
+    }
+    
+    
+    .backchaussure{
+    display: none;	
+    }
+    
+    
+    
+    .shoes{
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        margin: 25px;
+        overflow: hidden;
+        width: 100%;
+        
+    }
+    
+    h6{
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        margin: 25px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        top: 20px;
+        text-align: center;
+    }
+    
+    .media2{
+        display: block;
+        width: 800px;
+    }
+    
+    .header3{
+    display: none;
+    }
+    
+    .part3{
+        background-color: rgb(255, 255, 255);
+        display: block;
+        width: 800px;
+    }
+    
+    .media3{
+        display: block;
+        width: 800px;
+    }
+    .header4{
+        display: none;
+    }
+    
+    .baner {
+        font-weight: bold;
+        color:#005587 ;
+        font-size: x-large;
+        letter-spacing: 2px;
+        top: 30px;
+        text-align: center;
+        
+    }
+    
+    .footer{
+        background-color:#005587 ;
+        height: 300px;
+        width: 800px;
+    }
+    
+    .logomobil{
+        text-align: right;
+        width: 300px;
+        height: 70px;
+        margin: 50px;
+    }
+    
+    .styletrait{
+        width: 95%;
+        margin-left: 10px;
+    }
+    
+    h3{
+        color: white;
+        font-weight: bold;
+        margin: 25px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        top: 20px;
+        text-align: center;
+    }
+    
+    .slides{
+        display: block;
+        width: 800px;
+    }
+    
+    .move{
+        position: relative;
+        display: block;
+        animation: move 5s infinite;
+        width: 500%;
+        height: 425%;
+      }
+    
+      @keyframes move {
+    
+        from {right: -10px;}
+        50% {right: 200px !important;} /* ignored */
+        to {right: 1000px;}
+      }
+    
+    }
