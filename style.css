@@ -179,3 +179,39 @@ h5{
 	margin: 130px;
 	margin-top: 10px;
 }
+
+.backchaussure{
+	background-image: url("tel1.png");
+	background-size: cover;
+	min-height: 650px;
+	background-position: center;	
+}
+
+.slides{
+	width: 100%;
+}
+.shoes{
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	margin: 25px;
+	width: 100%;
+}
+
+.shoes img{
+	text-align: center;
+	width: 400px;
+	height: 425px;
+}
+
+h6{
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	margin: 25px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	top: 20px;
+	text-align: center;
+	width: 100%;
+}
